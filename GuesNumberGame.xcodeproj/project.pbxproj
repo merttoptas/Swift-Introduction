@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758345CB27BEDA190009087A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345CA27BEDA190009087A /* AppDelegate.swift */; };
+		758345CD27BEDA190009087A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345CC27BEDA190009087A /* SceneDelegate.swift */; };
+		758345CF27BEDA190009087A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345CE27BEDA190009087A /* ViewController.swift */; };
+		758345D227BEDA190009087A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758345D027BEDA190009087A /* Main.storyboard */; };
+		758345D427BEDA1C0009087A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758345D327BEDA1C0009087A /* Assets.xcassets */; };
+		758345D727BEDA1C0009087A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758345D527BEDA1C0009087A /* LaunchScreen.storyboard */; };
+		758345E227BEDA1D0009087A /* GuesNumberGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345E127BEDA1D0009087A /* GuesNumberGameTests.swift */; };
+		758345EC27BEDA1D0009087A /* GuesNumberGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345EB27BEDA1D0009087A /* GuesNumberGameUITests.swift */; };
+		758345EE27BEDA1D0009087A /* GuesNumberGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758345ED27BEDA1D0009087A /* GuesNumberGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758345DE27BEDA1D0009087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758345BF27BEDA190009087A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758345C627BEDA190009087A;
+			remoteInfo = GuesNumberGame;
+		};
+		758345E827BEDA1D0009087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758345BF27BEDA190009087A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758345C627BEDA190009087A;
+			remoteInfo = GuesNumberGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		758345C727BEDA190009087A /* GuesNumberGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesNumberGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758345CA27BEDA190009087A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758345CC27BEDA190009087A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		758345CE27BEDA190009087A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758345D127BEDA190009087A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758345D327BEDA1C0009087A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758345D627BEDA1C0009087A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758345D827BEDA1C0009087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758345DD27BEDA1D0009087A /* GuesNumberGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuesNumberGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758345E127BEDA1D0009087A /* GuesNumberGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesNumberGameTests.swift; sourceTree = "<group>"; };
+		758345E727BEDA1D0009087A /* GuesNumberGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuesNumberGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758345EB27BEDA1D0009087A /* GuesNumberGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesNumberGameUITests.swift; sourceTree = "<group>"; };
+		758345ED27BEDA1D0009087A /* GuesNumberGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesNumberGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758345C427BEDA190009087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345DA27BEDA1D0009087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345E427BEDA1D0009087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758345BE27BEDA190009087A = {
+			isa = PBXGroup;
+			children = (
+				758345C927BEDA190009087A /* GuesNumberGame */,
+				758345E027BEDA1D0009087A /* GuesNumberGameTests */,
+				758345EA27BEDA1D0009087A /* GuesNumberGameUITests */,
+				758345C827BEDA190009087A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		758345C827BEDA190009087A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758345C727BEDA190009087A /* GuesNumberGame.app */,
+				758345DD27BEDA1D0009087A /* GuesNumberGameTests.xctest */,
+				758345E727BEDA1D0009087A /* GuesNumberGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758345C927BEDA190009087A /* GuesNumberGame */ = {
+			isa = PBXGroup;
+			children = (
+				758345CA27BEDA190009087A /* AppDelegate.swift */,
+				758345CC27BEDA190009087A /* SceneDelegate.swift */,
+				758345CE27BEDA190009087A /* ViewController.swift */,
+				758345D027BEDA190009087A /* Main.storyboard */,
+				758345D327BEDA1C0009087A /* Assets.xcassets */,
+				758345D527BEDA1C0009087A /* LaunchScreen.storyboard */,
+				758345D827BEDA1C0009087A /* Info.plist */,
+			);
+			path = GuesNumberGame;
+			sourceTree = "<group>";
+		};
+		758345E027BEDA1D0009087A /* GuesNumberGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				758345E127BEDA1D0009087A /* GuesNumberGameTests.swift */,
+			);
+			path = GuesNumberGameTests;
+			sourceTree = "<group>";
+		};
+		758345EA27BEDA1D0009087A /* GuesNumberGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758345EB27BEDA1D0009087A /* GuesNumberGameUITests.swift */,
+				758345ED27BEDA1D0009087A /* GuesNumberGameUITestsLaunchTests.swift */,
+			);
+			path = GuesNumberGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758345C627BEDA190009087A /* GuesNumberGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758345F127BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGame" */;
+			buildPhases = (
+				758345C327BEDA190009087A /* Sources */,
+				758345C427BEDA190009087A /* Frameworks */,
+				758345C527BEDA190009087A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuesNumberGame;
+			productName = GuesNumberGame;
+			productReference = 758345C727BEDA190009087A /* GuesNumberGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758345DC27BEDA1D0009087A /* GuesNumberGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758345F427BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGameTests" */;
+			buildPhases = (
+				758345D927BEDA1D0009087A /* Sources */,
+				758345DA27BEDA1D0009087A /* Frameworks */,
+				758345DB27BEDA1D0009087A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758345DF27BEDA1D0009087A /* PBXTargetDependency */,
+			);
+			name = GuesNumberGameTests;
+			productName = GuesNumberGameTests;
+			productReference = 758345DD27BEDA1D0009087A /* GuesNumberGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		758345E627BEDA1D0009087A /* GuesNumberGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758345F727BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGameUITests" */;
+			buildPhases = (
+				758345E327BEDA1D0009087A /* Sources */,
+				758345E427BEDA1D0009087A /* Frameworks */,
+				758345E527BEDA1D0009087A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758345E927BEDA1D0009087A /* PBXTargetDependency */,
+			);
+			name = GuesNumberGameUITests;
+			productName = GuesNumberGameUITests;
+			productReference = 758345E727BEDA1D0009087A /* GuesNumberGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758345BF27BEDA190009087A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					758345C627BEDA190009087A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					758345DC27BEDA1D0009087A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 758345C627BEDA190009087A;
+					};
+					758345E627BEDA1D0009087A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 758345C627BEDA190009087A;
+					};
+				};
+			};
+			buildConfigurationList = 758345C227BEDA190009087A /* Build configuration list for PBXProject "GuesNumberGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758345BE27BEDA190009087A;
+			productRefGroup = 758345C827BEDA190009087A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758345C627BEDA190009087A /* GuesNumberGame */,
+				758345DC27BEDA1D0009087A /* GuesNumberGameTests */,
+				758345E627BEDA1D0009087A /* GuesNumberGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758345C527BEDA190009087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758345D727BEDA1C0009087A /* LaunchScreen.storyboard in Resources */,
+				758345D427BEDA1C0009087A /* Assets.xcassets in Resources */,
+				758345D227BEDA190009087A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345DB27BEDA1D0009087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345E527BEDA1D0009087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758345C327BEDA190009087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758345CF27BEDA190009087A /* ViewController.swift in Sources */,
+				758345CB27BEDA190009087A /* AppDelegate.swift in Sources */,
+				758345CD27BEDA190009087A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345D927BEDA1D0009087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758345E227BEDA1D0009087A /* GuesNumberGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758345E327BEDA1D0009087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758345EC27BEDA1D0009087A /* GuesNumberGameUITests.swift in Sources */,
+				758345EE27BEDA1D0009087A /* GuesNumberGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758345DF27BEDA1D0009087A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758345C627BEDA190009087A /* GuesNumberGame */;
+			targetProxy = 758345DE27BEDA1D0009087A /* PBXContainerItemProxy */;
+		};
+		758345E927BEDA1D0009087A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758345C627BEDA190009087A /* GuesNumberGame */;
+			targetProxy = 758345E827BEDA1D0009087A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758345D027BEDA190009087A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758345D127BEDA190009087A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758345D527BEDA1C0009087A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758345D627BEDA1C0009087A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758345EF27BEDA1D0009087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758345F027BEDA1D0009087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758345F227BEDA1D0009087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuesNumberGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		758345F327BEDA1D0009087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuesNumberGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		758345F527BEDA1D0009087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuesNumberGame.app/GuesNumberGame";
+			};
+			name = Debug;
+		};
+		758345F627BEDA1D0009087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuesNumberGame.app/GuesNumberGame";
+			};
+			name = Release;
+		};
+		758345F827BEDA1D0009087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuesNumberGame;
+			};
+			name = Debug;
+		};
+		758345F927BEDA1D0009087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58FCWFP5T9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merttoptas.GuesNumberGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuesNumberGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758345C227BEDA190009087A /* Build configuration list for PBXProject "GuesNumberGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758345EF27BEDA1D0009087A /* Debug */,
+				758345F027BEDA1D0009087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758345F127BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758345F227BEDA1D0009087A /* Debug */,
+				758345F327BEDA1D0009087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758345F427BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758345F527BEDA1D0009087A /* Debug */,
+				758345F627BEDA1D0009087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758345F727BEDA1D0009087A /* Build configuration list for PBXNativeTarget "GuesNumberGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758345F827BEDA1D0009087A /* Debug */,
+				758345F927BEDA1D0009087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758345BF27BEDA190009087A /* Project object */;
+}
